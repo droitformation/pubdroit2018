@@ -1,0 +1,114 @@
+.panel-sondage{
+    box-shadow: 0 1px 1px 0 #B3B3B3;
+    border: none;
+    border-radius: 0px;
+}
+
+.sondage-title-colloque{
+    margin:15px 0;
+    font-size: 22px;
+}
+
+.media-sondage{
+    margin-bottom: 45px;
+}
+
+.media-sondage .media-left{
+    padding-right: 30px;
+}
+
+.media-sondage .media-body p{
+    font-size: 16px;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    margin: 4px 3px 0;
+}
+.sondage{
+    margin-bottom: 24px;
+}
+.radio-sondage{
+    margin: 0px 0px 0px 20px;
+}
+
+h4.label-chapitre{
+    font-size: 15px;
+    color: #000;
+    font-weight: bold;
+}
+
+textarea.sondage{
+    border: 1px solid #d2d3d6;
+    height: 60px;
+    margin-top:5px;
+}
+.imgSondage{
+    margin-top : 10px;
+}
+li{
+    display: inline-block;
+}
+.form-group-sondage{
+    margin: 8px 0 5px 0;
+}
+
+.form-group-sondage ul{
+    vertical-align: top;
+}
+
+.sondage-question {
+    width:460px;
+}
+
+.sondage-question h4, .label-question h4{
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    margin-top: -10px;
+    line-height: 20px;
+ }
+
+.sondage-question h4 strong{
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.control-label{
+    margin-top: 5px;
+}
+
+.label-question{
+    margin-bottom: 0;
+}
+
+.label-question p{
+    margin-bottom: 2px;
+}
+
+.label-question p strong{
+    font-weight: bold;
+}
+
+
+.question-checkbox{
+    margin: 20px 0;
+}
+
+.question-checkbox li{
+    display: block;
+    padding: 3px 0;
+}
+
+ul{
+    display: inline-block;
+    margin:0px;
+    padding: 0px 0px 2px 0px;
+}
+.remerciements{
+    text-align: center;
+}
+.remerciements h3{
+    margin-bottom: 24px;
+}
+

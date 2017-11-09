@@ -1,0 +1,529 @@
+/* ===== Primary Styles =====================================================
+   Bail
+========================================================================== */
+
+body {
+    background: #cccccc;
+    font-family: Arial,​Verdana,​Helvetica,​sans-serif;
+}
+
+button.alert:hover,
+button.alert:focus,
+.button.alert:hover,
+.button.alert:focus {
+  background-color: #c02326;
+}
+
+/*======================================
+	Styles
+=======================================*/
+
+a, a:hover,
+a:active,
+a:visited {
+    color: #cb2629;
+}
+
+.line{
+    border-bottom: 1px solid #cb2629;
+    font-size: 16px;
+}
+
+.line.up{
+    margin-top: 20px;
+}
+
+.revue-content h3{
+    border-bottom: 1px solid #cb2629;
+    line-height: 30px;
+}
+
+.revue-content p{
+    text-align: justify;
+}
+
+.revue-title{
+    margin-top: 40px;
+}
+
+.agenda{
+    padding: 15px;
+    background: #cb2629;
+    color: #fff8f8;
+}
+
+.agenda a, .agenda h5{
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.agenda a{
+    text-decoration: underline;
+}
+
+.agenda h5{
+    margin-bottom: 5px;
+    border: none;
+}
+
+.autorite-canton {
+    text-align: center;
+}
+
+.content-bloc-page{
+    text-align: justify;
+}
+
+img[align="left"],
+img[style*="float: left"],
+img[style*="float:left"]{
+    margin: 5px 20px 0px 0px;
+}
+img[align="right"],
+img[style*="float: right"],
+img[style*="float:right"]{
+    margin: 5px 0px 0px 20px;
+}
+
+/*======================================
+	Main Blocks
+=======================================*/
+#main {
+    background: #fff;
+    position: relative;
+    z-index: 1;/* fix for calendar jquerui*/
+}
+
+#content{
+    margin-bottom: 10px;
+}
+
+.inner.inner-app.inner-home{
+    padding-top: 20px;
+}
+
+.home-bloc{
+    margin-bottom: 20px;
+}
+
+.home-bloc p{
+    text-align: justify;
+}
+
+.header {
+  background: #fff;
+  height: 90px;
+}
+
+.header p{
+    margin-bottom: 5px;
+}
+
+.header h1{
+    padding: 5px 0;
+}
+
+.header h1 img{
+    height:70px;
+}
+
+#breadcrumbs, #breadcrumbs a {
+  color: #fff;
+}
+
+.colorBlock{
+    background: #cb2629;
+}
+
+ .btn-danger {
+    background: #cb2629;
+     font-size: 12px;
+     line-height: 20px;
+}
+
+.colorBlock h4,
+.colorBlock a,
+.colorBlock p {
+  color: #fff;
+}
+
+.colorBlock{
+    background: #cb2629;
+}
+
+.colorBlock p {
+  color: #f5c8c8;
+}
+
+.headerBreadcrumb{
+    height: 10px;
+    line-height: 10px;
+}
+
+/*======================================
+	Navigation
+=======================================*/
+#menu-principal > a{
+    color: #000;
+}
+
+#menu-principal > a:hover,
+#menu-principal > a.active {
+    color: #cb2629;
+}
+
+/*======================================
+	Form
+=======================================*/
+.form-control:focus {
+    border-color: #f5c8c8;
+    box-shadow: 0 1px 1px #f5c8c8 inset, 0 0 8px #f5c8c8;
+}
+
+/*======================================
+	Sidebar
+=======================================*/
+
+.sidebar-content-bloc{
+    margin-bottom: 20px;
+}
+
+.sidebar-content-bloc h5{
+    color: #fff;
+    padding:10px 10px;
+    background: #cb2629;
+    -webkit-box-shadow:inset 6px 0 5px -2px #750000;
+    box-shadow:inset 6px 0 5px -2px #750000;
+    margin-left:-15px;
+    margin-right:-15px;
+}
+
+.sidebar-content-bloc .bloc-content{
+    padding: 10px 0 0 0;
+}
+
+.bloc-content h3{
+    font-size: 20px;
+}
+
+.bloc-content h4{
+    font-size: 16px;
+}
+
+.bloc-content ul li h3{
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.color-bloc {
+    color: #fff;
+    padding:10px 10px;
+    background: #cb2629;
+    -webkit-box-shadow:inset 6px 0 5px -2px #750000;
+    box-shadow:inset 6px 0 5px -2px #750000;
+}
+
+.menu li a.active{
+    color: #cb2629;
+}
+
+#rightmenu h5 a{
+    border-bottom:1px solid #CB2629;
+}
+
+#rightmenu h5 a i{
+    color:#CB2629;
+}
+
+/*======================================
+	FAQ
+=======================================*/
+
+.faq_list{
+  margin-bottom: 20px;
+  margin-left: 0;
+  padding:0;
+}
+
+.faq_list p{
+   width: 31.5%;
+   display: table;
+   float: left;
+   margin: 5px;
+ }
+
+.faq_list p a{
+  display: table-cell;
+  font-size: 13px;
+  height: 40px;
+  padding: 4px 15px;
+  border: 1px solid #ccc;
+  background: #f5f5f5;
+  line-height: 15px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.faq_list p a:hover, .faq_list p a.active{
+  background: #e3e3e3;
+}
+
+.faq_wrapper h3{
+  margin-bottom: 10px;
+}
+
+.faq_wrapper div{
+  margin-bottom: 20px;
+}
+
+/*======================================
+	Seminaire
+=======================================*/
+#seminaires .sujets {
+  color: #000000;
+  font-family: Arial,Verdana,Helvetica,sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+#seminaires .sujets .col {
+  float: left;
+  padding: 2px;
+}
+
+#seminaires .sujets .sujet {
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-bottom: 1px solid #B80E1D;
+}
+
+#seminaires .sujet .delimiter{
+    border-bottom: 1px solid #B80E1D;
+}
+
+#seminaires .titleRow {
+    margin-bottom: 10px;
+}
+
+#seminaires .sujets .category {
+  margin-right: 4px;
+  width: 90px;
+}
+
+#seminaires .sujets .category h4 {
+  color: #000000;
+  font-size: 13px;
+  font-style: italic;
+  font-weight: normal;
+  padding: 0;
+}
+
+#seminaires .sujets .hidden {
+  display: none;
+}
+
+#seminaires .sujets .edition {
+  margin-right: 4px;
+  width: 130px;
+}
+
+#seminaires .sujets .annee {
+  margin-right: 4px;
+  width: 36px;
+}
+
+#seminaires .sujets .catTitle .annee strong {
+  left: -4px;
+  position: relative;
+}
+
+#seminaires .sujets .desc {
+  margin-right: 4px;
+  width: 200px;
+}
+
+#seminaires .sujets .auteur {
+  margin-right: 4px;
+  width: 120px;
+}
+
+#seminaires .sujets .order {
+  width: 65px;
+}
+
+#doctrine .sujet{
+    border-top:1px solid #cb2629;
+}
+
+#seminaires .sujet > div{
+    font-size: 13px;
+}
+
+#seminaires .sujet div p{
+    margin-bottom: 0;
+}
+
+#seminaireannees{
+    list-style: outside none none;
+    position: relative;
+}
+
+#seminaireannees li a {
+    display: block;
+    height: 15px;
+    margin-bottom: 6px;
+    padding: 0 0 0 20px;
+    text-decoration: none;
+}
+
+#seminaireannees li a.active {
+    color: #b80e1d;
+    text-decoration: underline;
+}
+
+.selectList{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.filtre h6{
+    margin-top: 15px;
+}
+
+/******************************************************
+* Calculette
+******************************************************/
+.calculator label {
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+.calculator form, .calculator form .tiny {
+    margin-bottom: 0;
+}
+
+#calculatorResult {
+  margin: 20px 0 0 0;
+}
+
+#calculatorResult .lines {
+  clear: both;
+  line-height: 18px;
+  font-size: 12px;
+}
+
+#calculatorResult .details .lines .label-input,
+#calculatorResult .result .lines .label-input {
+  display: block;
+  float: left;
+  width: 180px;
+}
+
+#calculatorResult .details .lines .value,
+#calculatorResult .result .lines .value {
+  display: block;
+  float: right;
+  width: 30px;
+}
+
+#calculatorResult .details .dates {
+  color: #808080;
+  display: block;
+  font-size: 11px;
+  padding-bottom: 5px;
+}
+
+#calculatorResult .result {
+  margin-bottom: 20px;
+}
+
+#calculatorResult .result .nouveau_loyer {
+  font-weight: bold;
+}
+
+#calculette label{
+    margin: 10px 0 5px 0;
+}
+
+
+/**
+* Main content app styles
+*/
+
+.sidebar-app {
+    margin-top: 15px;
+}
+
+.inner.inner-app{
+   padding-top: 30px;
+}
+
+.inner-app h2{
+    color: #b80e1d;
+}
+
+#newsletter h2{
+    color:#000;
+}
+
+#newsletter .row{
+    margin-bottom: 40px;
+}
+
+#newsletter .bloc-content h2{
+    color: #b80e1d;
+}
+
+.inner-app form label{
+    color: #b80e1d;
+}
+
+.sidebar-app .widget{
+    background: #f5f5f5;
+    border:1px solid #ebebeb;
+}
+
+.sidebar-app .widget .title{
+    background: #b80e1d none repeat scroll 0 0;
+    border: 1px solid #e7e7e7;
+    color: #fff;
+}
+
+.pagination > .active > a,
+.pagination > .active > a:focus,
+.pagination > .active > a:hover,
+.pagination > .active > span,
+.pagination > .active > span:focus,
+.pagination > .active > span:hover {
+    background-color: #b80e1d;
+    border-color: #b80e1d;
+}
+
+.pagination > li > a, .pagination > li > span {
+    color: #b80e1d;
+}
+
+.btn-app{
+    background-color: #b80e1d;
+    border-color: #b80e1d;
+    color: #fff !important;
+}
+
+.post-title h3{
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.analyse-app h3{
+    font-size: 18px;
+    text-align: left;
+}
+
+.post-entry{
+    text-align: justify;
+}
+
+.btn-danger {
+    color: #fff !important;
+}

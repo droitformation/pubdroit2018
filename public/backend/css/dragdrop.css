@@ -1,0 +1,186 @@
+
+/* dragula-specific example page styles */
+.wrapper {
+    display: table;
+    width: 100%;
+    height: 200px;
+    vertical-align: top;
+}
+
+.container_dd {
+    display: table-cell;
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 50%;
+    height: 200px;
+    height: auto;
+    vertical-align: top;
+}
+
+.wide{
+    display: table;
+    width: 100%;
+    height: 200px;
+    vertical-align: top;
+}
+
+.panel_33{
+    width: 28%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.panel .panel-body.panel-compare {
+    padding: 10px;
+    border-top: none;
+}
+
+.panel .panel-body.panel-compare .panel-heading{
+    font-size: 13px;
+    line-height: 20px;
+    height: 20px;
+}
+
+.panel-compare h1{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.panel-compare h2{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.panel-compare p,
+.panel-compare dl dd{
+    font-size:13px;
+    margin-bottom: 0;
+}
+
+.panel-compare dl{
+    margin-top: 5px;
+}
+
+#left-defaults .panel_33,
+#right-defaults .panel_33,
+#normal .panel_33
+{
+    width: 90%;
+}
+
+/*
+ * note that styling gu-mirror directly is a bad practice because it's too generic.
+ * you're better off giving the draggable elements a unique class and styling that directly!
+ */
+.container_dd > div,
+.wide > div,
+.gu-mirror {
+    margin: 10px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.2);
+    transition: opacity 0.4s ease-in-out;
+}
+.container_dd > div, .wide > div {
+    cursor: move;
+    cursor: grab;
+    cursor: -moz-grab;
+    cursor: -webkit-grab;
+}
+.gu-mirror {
+    cursor: grabbing;
+    cursor: -moz-grabbing;
+    cursor: -webkit-grabbing;
+}
+.container_dd .ex-moved {
+    background-color: #e74c3c;
+}
+.container_dd.ex-over {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+#left-lovehandles > div,
+#right-lovehandles > div {
+    cursor: initial;
+}
+
+#left-defaults::before{
+    content: 'De';
+    font-weight: bold;
+    font-size: 22px;
+    color: #8d8d8d;
+}
+
+#right-defaults::before{
+    content: 'Vers';
+    font-weight: bold;
+    font-size: 22px;
+    color: #8d8d8d;
+}
+
+#middle-defaults::before{
+    content: 'Choix';
+    font-weight: bold;
+    font-size: 22px;
+    color: #8d8d8d;
+}
+
+#left-defaults::after{
+    content: '» ';
+    font-size: 40px;
+    position: absolute;
+    right: 5px;
+    color: #aaa;
+    top: -5px;
+}
+
+#left-defaults, #right-defaults,#middle-defaults, .normal-inactiv{
+    background-color: #fff;
+    border-bottom: 1px solid #dddddd;
+    border-left: 1px solid #dddddd;
+    border-right: 1px solid #dddddd;
+    padding: 10px;
+    position: relative;
+}
+
+#middle-defaults{
+    margin-bottom: 20px;
+}
+
+.handle {
+    padding: 0 5px;
+    margin-right: 5px;
+    background-color: rgba(0, 0, 0, 0.4);
+    cursor: move;
+}
+.image-thing {
+    margin: 20px 0;
+    display: block;
+    text-align: center;
+}
+
+.well-sm.isNotTrashed, div.isNotTrashed{
+    background: #ebfed8;
+}
+
+.div.isTrashed{
+    background: #f5f5f5;
+}
+
+tr.isTrashed td{
+    background: #fffae6;
+    opacity: 0.8;
+}
+
+.well-sm.isTrashed, div.isTrashed{
+    background: #faf2d4;
+    opacity: 0.8;
+}
+
+.div.isTrashed, div.isNotTrashed{
+    padding: 3px 5px;
+}
+
+.well address{
+    padding: 5px 0;
+}

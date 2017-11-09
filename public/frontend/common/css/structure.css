@@ -1,0 +1,624 @@
+/* ===== Primary Styles =====================================================
+   Bail
+   ========================================================================== */
+/* line 7, main.scss */
+body {
+    font-family: Arial,​Verdana,​Helvetica,​sans-serif;
+}
+
+/* line 11, main.scss */
+img {
+    max-width: 100%;
+}
+
+/* line 15, main.scss */
+h1, h2, h3, h4, h5 {
+    margin: 0 0 10px 0;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+/* line 19, main.scss */
+h3 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* line 24, main.scss */
+h4 {
+    font-size:20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* line 29, main.scss */
+h5 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* line 34, main.scss */
+a, a:hover, a:active, a:visited {
+    text-decoration: none;
+}
+
+p {
+    font-size: 15px;
+    line-height:20px;
+}
+
+.title{
+    font-size: 20px;
+}
+
+.post{
+    margin-bottom: 30px;
+}
+
+.content-bloc{
+    margin: 15px 0;
+}
+
+.line {
+    line-height: 30px;
+}
+
+.line.up {
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+select.form-control {
+    font-size: 13px;
+    height: 30px;
+    line-height: 1.2;
+}
+
+.listCat.text-center{
+    text-align: center !important;
+}
+
+/*======================================
+	Struture
+=======================================*/
+
+.inner{
+    padding: 10px 20px;
+}
+
+.min-inner {
+    margin: 0;
+    padding: 5px 15px;
+}
+
+.maincontent{
+    box-shadow: 5px 0 5px -5px #333;
+    padding-bottom: 20px;
+}
+
+.upMarge {
+    margin-top: 15px;
+}
+
+#newsletter p{
+    text-align: justify;
+}
+
+/*======================================
+	Main Blocks
+=======================================*/
+#main {
+    background: #fff;
+}
+
+.header {
+    background: #fff;
+    height: 86px;
+}
+
+#photo{
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-bottom: 20px;
+}
+
+#mainSidebar{
+    position: relative;
+    z-index: 10;
+    margin-bottom: 15px;
+}
+
+#content-wrapper{
+    z-index: 1;
+    position: relative;
+}
+
+#mainFooter{
+    z-index: 12;
+    position: relative;
+}
+
+/*======================================
+	Breadcrumbs
+=======================================*/
+
+#breadcrumbs, #breadcrumbs a {
+    color: #fff;
+    font-size: 12px;
+}
+
+#breadcrumbs{
+    margin-left: -15px;
+    margin-right: -15px;
+    line-height: 30px;
+}
+
+.header h1 {
+    font-size: 20px;
+    line-height: 80px;
+}
+
+.clear:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+
+/*======================================
+	Sidebar
+=======================================*/
+.colorSection {
+    height: 40px;
+    line-height: 30px;
+}
+
+.color-bloc {
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: italic;
+    padding:10px 10px;
+    margin-left:-15px;
+    margin-right:-15px;
+}
+
+/* line 118, main.scss */
+.colorBlock h4 {
+    margin-top: 5px;
+}
+
+/* line 122, main.scss */
+.colorBlock h4,
+.colorBlock a,
+.colorBlock p {
+    text-align: left;
+}
+
+.sidebar .colorBlock {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+/* line 109, main.scss */
+.homepageBlock p {
+    text-align: justify;
+}
+
+h3.link {
+    margin-bottom: 0;
+}
+
+.color-bloc {
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: italic;
+    padding:10px 10px;
+    margin-left:-15px;
+    margin-right:-15px;
+}
+
+.color-bloc a{
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.color-bloc.form-bloc{
+    padding:5px 10px;
+}
+
+.sidebar-bloc{
+    padding: 10px;
+}
+
+.margeBottom{
+    margin-bottom: 20px;
+}
+
+.menu{
+    padding: 10px;
+    margin-left: 5px;
+    padding-left: 5px;
+    list-style: none;
+}
+
+.menu > li > a{
+    color: #333;
+    display: block;
+    line-height: 24px;
+}
+
+#rightmenu{
+    padding: 10px;
+}
+
+#rightmenu h5 a{
+    padding: 5px;
+    display:block;
+    color:#000;
+    font-size: 13px;
+    font-weight:normal;
+}
+
+#rightmenu h5 a.active{
+    font-weight:bold;
+}
+
+#rightmenu ul.menu {
+    margin: 0;
+    padding: 0 10px 20px;
+    list-style: none;
+}
+
+#rightmenu ul.menu li {
+    margin: 0;
+    font-size: 13px;
+}
+
+/*** special soutien ***/
+#right .soutien .logo {
+    padding: 10px 0 0;
+    text-align: right;
+}
+
+/*======================================
+	Search
+=======================================*/
+/* line 136, main.scss */
+.searchform input {
+    height: 30px;
+}
+
+/*======================================
+	Navigation
+=======================================*/
+/* line 172, main.scss */
+#menu-principal {
+    line-height: 70px;
+}
+
+/* line 176, main.scss */
+#menu-principal > a {
+    display: inline-block;
+    padding: 0 5px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+/* line 188, main.scss */
+#menu-principal > a:after {
+    content: "|";
+    padding: 0 0 0 15px;
+}
+
+/* line 188, main.scss */
+#menu-principal > a:last-child:after {
+    content: "";
+}
+
+/* line 193, main.scss */
+#menu-principal a.noborder:after {
+    border: none;
+    content: "";
+    padding: 0;
+}
+
+/*======================================
+	styles for plugins
+=======================================*/
+
+/* line 520, main.scss */
+.chzn-container-multi .chzn-choices .search-field .default {
+    color: #999999;
+}
+
+/* line 524, main.scss */
+.chzn-container-multi .chzn-choices .search-field input {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+    border: 0 none !important;
+    box-shadow: none;
+    color: #666666;
+    margin: 1px 0;
+    outline: 0 none;
+    padding: 5px;
+}
+
+.ui-datepicker{
+    z-index: 1000;
+}
+
+/*======================================
+	Filtres sidebar
+=======================================*/
+
+.filtre h6 {
+    color: #666666;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0;
+}
+
+.widget{
+    margin-top: 20px;
+}
+
+.widget h3{
+    font-size: 13px;
+}
+
+.list{
+    margin-left: 5px;
+    padding-left: 0;
+}
+
+/*======================================
+	Arrets
+=======================================*/
+#arrets .arrets .arret.hidden {
+    display: none;
+}
+
+#analyses {
+    border-bottom: 1px solid #DCDCDC;
+    display: block;
+    margin-bottom: 30px;
+}
+
+#arrets .arrets .cat.hidden {
+    display: none;
+}
+
+.arret .post-entry {
+    font-size: 14px;
+    line-height: 20px;
+    text-align: justify;
+}
+
+.arret .post-title h3 {
+    color: #000000;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0;
+}
+
+.arret .post-title p {
+    font-style: italic;
+    color: #555;
+}
+
+#arrets .arrets .cat .details h4 {
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-weight: normal;
+    font-style: italic;
+}
+
+#arrets .arrets .cat .details img {
+    display: block;
+    margin: 0 auto;
+}
+
+.arret {
+    margin-bottom: 25px;
+}
+
+.arret p, .arret ul {
+    margin-bottom: 10px;
+}
+
+.arret ul li {
+    font-size: 13px;
+}
+
+/*======================================
+	Form
+=======================================*/
+
+.form-control::-moz-placeholder {
+    color: #999;
+    font-weight: normal;
+    opacity: 0.7;
+}
+
+/*======================================
+	Footer
+=======================================*/
+
+footer {
+    color: #fff;
+    font-size: 12px;
+    line-height: 16px;
+    margin-left: -15px;
+    margin-right: -15px;
+    padding: 10px 15px;
+    text-align: center;
+}
+
+
+footer a {
+    color: #fff;
+}
+
+
+/**
+* Main content app styles
+*/
+
+#appComponent .col-md-4{
+    position: relative;
+}
+
+.inner.inner-app{
+    padding: 40px;
+}
+
+.inner-app h2{
+    margin-bottom: 40px;
+    color: #000;
+    font-size: 30px;
+}
+
+#newsletter h2{
+    font-size: 25px;
+    font-weight: bold;
+    color:#000;
+    margin-bottom: 20px;
+}
+
+#newsletter .row{
+    margin-bottom: 40px;
+}
+
+#newsletter .bloc-content h2{
+    font-size: 25px;
+    color: #000;
+}
+
+.inner-app form label{
+    color: #000;
+}
+
+.sidebar-list{
+    max-height:350px;
+    overflow: scroll;
+}
+
+.analyse-app{
+    margin-bottom: 40px;
+}
+
+.sidebar-app{
+    margin-top: 25px;
+    padding-left: 30px;
+    position: relative;
+}
+
+#appComponent .sidebar-app {
+}
+
+.sidebar-app h3{
+    color: #000;
+    font-size: 22px;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+
+.list-cat-app{
+    margin-bottom: 10px;
+}
+
+.maincontent .list-cat-app,
+.maincontent .list-cat-app p{
+    text-align: center;
+}
+
+.post-title p{
+    font-style: italic;
+    margin: 15px 0;
+}
+
+.post-title p,
+.post-entry,
+.post-entry p{
+    font-size: 14px;
+}
+
+.sidebar-app .widget{
+    padding: 10px 10px;
+    background: #f5f5f5;
+    border:1px solid #ebebeb;
+}
+
+.sidebar-app .widget .title{
+    background: #ddd none repeat scroll 0 0;
+    border: 1px solid #e7e7e7;
+    color: #000;
+    font-size: 15px;
+    margin: -10px -10px 10px;
+    padding: 8px;
+}
+
+.sidebar-app .widget a.link{
+    color: #000;
+    font-size: 15px;
+    display: block;
+    padding: 3px 8px;
+}
+
+.widget p{
+    margin-bottom: 3px;
+}
+
+.widget p label{
+    margin-left: 5px;
+}
+
+.well-app{
+    margin-top: 10px;
+    border-radius: 0;
+    background: #fff;
+    box-shadow:none;
+}
+
+.analyse-app{
+    margin: 20px 0 40px 0;
+}
+
+.pagination > .active > a,
+.pagination > .active > a:focus,
+.pagination > .active > a:hover,
+.pagination > .active > span,
+.pagination > .active > span:focus,
+.pagination > .active > span:hover {
+    background-color: #666;
+    border-color: #666;
+}
+
+.pagination > li > a, .pagination > li > span {
+    color: #000;
+}
+
+.btn-app{
+    width: 100%;
+    text-align: center;
+    border-radius: 0px;
+}
+
+.sidebar-unine-logo{
+    padding: 10px;
+    line-height: 70px;
+}
+
+.alert{
+    margin-bottom: 0 !important;
+}

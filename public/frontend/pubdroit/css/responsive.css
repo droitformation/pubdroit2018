@@ -1,0 +1,333 @@
+
+@media (max-width: 768px) {
+
+    .c-btn{
+        margin: 10px auto;
+        padding: 10px;
+        position: relative;
+        right: auto;
+        width: 100%;
+    }
+
+    .cart-btn{
+        padding-right: 15px;
+    }
+
+    .c-btn .btn-group a{
+        margin-bottom: 0;
+    }
+
+    .search-bar{
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    #main-header input[type="text"] {
+        height: 32px;
+        width: 80% !important;
+    }
+
+    .navbar .btn-navbar{
+        margin-right: 0;
+        padding: 7px 8px;
+    }
+
+    #main-header button.button-default {
+        float: right;
+        padding: 5px 10px;
+    }
+
+    .item-colloque{
+        border: none;
+    }
+
+    .banner-ad{
+        margin-top: 20px;
+    }
+
+    #main-header .container{
+        width: 100%;
+    }
+
+    .e-commerce-list li::before {
+        content: "";
+        margin-right: 0;
+    }
+
+    .top-nav-bar ul{
+        margin: 5px 0;
+    }
+
+    .e-commerce-list li:first-child{
+       float: none;
+        width: 100%;
+    }
+
+    .e-commerce-list li:last-child{
+        text-align: right;
+    }
+
+    .top-nav{
+        border-bottom: 1px solid #ccc;
+    }
+
+    .top-nav2{
+        border: none;
+    }
+
+    .e-commerce-list li {
+        float: left;
+        line-height: 20px;
+        margin: 5px 0;
+        padding-left: 0;
+        text-align: left;
+        width: 50%;
+    }
+
+    .event-post .post-img {
+        float: none;
+        margin: 0;
+        position: relative;
+        width: 100%;
+    }
+
+    .event-post .post-det {
+        float: none;
+        width: 100%;
+    }
+
+    .heading-bar h2 {
+        font-size: 18px;
+    }
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    #main-header img.bg_header{
+        width: auto !important;
+    }
+
+    #nav{
+        height: auto;
+    }
+
+    .item-colloque {
+        margin: 15px auto;
+        width: 150px;
+        border: none;
+    }
+
+    #preheader-menu ul {
+        background: #f1f1f1;
+        margin-bottom: 10px;
+    }
+
+    #preheader-menu li a {
+        line-height: 20px;
+    }
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+
+    .container,.testimonials .slide, .best-sellers .slide, .bb-bookblock, .bb-custom-wrapper {
+        width: 100% !important;
+        margin: 0 auto;
+    }
+
+    #preheader .container,
+    #preheader .container .row{
+        padding: 0 ;
+    }
+
+    #preheader .container .row,
+    #preheader .container .col-md-8,
+    #preheader .container .col-md-4{
+        margin: 0;
+        padding: 0;
+    }
+
+    #preheader .container .col-md-4{
+        padding: 0 10px;
+    }
+
+    .logged-profile a, .logged-profile button{
+        margin: 0;
+    }
+
+    #preheader-menu ul{
+        background: #0c0c0c;
+        height: 40px;
+        float: none !important;
+        margin: 0;
+        padding: 0;
+    }
+
+    #preheader-menu ul li{
+        width: auto;
+        display: inline-block;
+        margin: 0 auto;
+        line-height: 40px;
+        height: 40px;
+        height: auto;
+    }
+
+    #preheader-menu li a{
+        color: #fff;
+        height: auto;
+        line-height: 40px;
+        display: inline-block;
+        padding: 0 3px;
+        font-size: 11px;
+        font-style: normal;
+        text-transform: capitalize;
+        background: none;
+    }
+
+    #preheader-menu ul li:after{
+        content: "|";
+        color: #5e5e5e;
+    }
+
+    #preheader-menu li a.active:after, #preheader-menu ul li:last-child:after{
+        content: "";
+    }
+
+    #preheader-menu li a.active{
+        color: #000;
+    }
+
+    #main-header img.bg_header{
+        position: absolute;
+        top: 0px;
+        max-width: 160%;
+    }
+
+    #logo a img{
+        width: 230px;
+        margin-top: 10px;
+    }
+
+    #nav .search-bar input{
+        display: inline;
+    }
+
+    #nav .search-bar button{
+        display: inline;
+    }
+
+    .item-holder a img, .post-img a img{
+        max-width: 160px;
+    }
+
+    #nav{
+        height: auto;
+    }
+
+    #nav .search-bar form {
+        margin-bottom: 0;
+        background: #f5f5f5;
+        padding: 5px;
+        margin-top: 10px;
+    }
+
+    .item-colloque {
+        margin: 15px auto;
+        width: 150px;
+        border: none;
+    }
+
+    #colloque-dependence input.occurrences[type="radio"] + label, #colloque-dependence input.occurrences[type="checkbox"] + label, #colloque-dependence input.occurrences[type="radio"]:checked + label, #colloque-dependence input.occurrences[type="checkbox"]:checked + label {
+        width: 90%;
+        height: 130px;
+        padding: 5px 10px;
+    }
+    
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-width : 479px) and (max-width : 768px) {
+    #main-header img.bg_header{
+        position: absolute;
+        top: -10px;
+        max-width: 140%;
+    }
+
+    #logo a img{
+        max-width: 260px;
+    }
+
+    #nav{
+        height: auto;
+    }
+
+    #nav .search-bar form {
+        margin-bottom: 0;
+        background: #f5f5f5;
+        padding: 5px;
+        margin-top: 10px;
+    }
+
+    .item-colloque {
+        margin: 15px auto;
+        width: 150px;
+        border: none;
+    }
+    
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-width : 768px) and (max-width : 1024px){
+    #main-header img.bg_header{
+        width: auto !important;
+    }
+
+    #nav{
+        height: auto;
+    }
+
+    #nav form {
+        margin-bottom: 0;
+        padding: 5px;
+        margin-top: 10px;
+    }
+    
+    #nav .search-bar{
+        float: none;
+    }
+
+    .item-colloque, .item-colloque:last-child{
+        margin: 15px auto;
+        width: 150px;
+        border: none;
+    }
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-width : 200px) and (max-width : 980px){
+    .item-colloque, .item-colloque:last-child{
+        margin: 15px auto;
+        width: 150px;
+        border: none;
+    }
+
+    #nav{
+        height: auto;
+    }
+
+    #nav form {
+        margin-bottom: 0;
+        padding: 5px;
+        margin-top: 10px;
+    }
+
+    #nav .search-bar{
+        float: none;
+    }
+
+    .selectric .label{
+        color: #fff;
+        opacity: 1;
+        text-align: center;
+    }
+}
