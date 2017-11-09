@@ -10,7 +10,6 @@ before_script:
   - php artisan key:generate
   - mkdir public/files/products
   - mkdir public/files/abos
-  - mkdir public/files/products/
   - mkdir public/files/arrets
   - mkdir public/files/analyses
   - mkdir public/files/uploads
