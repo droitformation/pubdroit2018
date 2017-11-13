@@ -26,6 +26,11 @@ class MailgunService implements MailgunInterface
         $this->mailgun = $mailgun;
     }
 
+    public function getClient()
+    {
+        return  $this->mailgun;
+    }
+
     /*
      * Formats:
      *

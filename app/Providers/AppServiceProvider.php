@@ -59,11 +59,6 @@ class AppServiceProvider extends ServiceProvider
 
         view()->composer(['frontend.bail.*','backend.seminaires.*'], 'App\Http\ViewComposers\BailComposer');
         view()->composer(['frontend.matrimonial.*'], 'App\Http\ViewComposers\MatrimonialComposer');
-
-        if (\App::environment('local')) {
-            $mock = \Mockery::mock('App\Droit\Newsletter\Service\Mailjet');
-            $this->app->instance('App\Droit\Newsletter\Service\Mailjet', $mock);
-        }
     }
 
     /**
@@ -74,20 +69,16 @@ class AppServiceProvider extends ServiceProvider
     public function register()
     {
         $this->registerSiteService();
-
         $this->registerDuplicateService();
         $this->registerDuplicateWorkerService();
-
         $this->registerUploadService();
         $this->registerReminderService();
         $this->registerReminderWorkerService();
-
         $this->registerFileWorkerService();
         $this->registerPageService();
         $this->registerContentService();
         $this->registerBlocService();
         $this->registerMenuService();
-
         $this->registerEmailService();
     }
 

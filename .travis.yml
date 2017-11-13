@@ -16,6 +16,7 @@ before_script:
   - mkdir public/files/colloques
   - mkdir public/files/pictos
   - mkdir public/files/shop
+  - mkdir public/files/shop/factures
   - mkdir storage/excel/exports
   - mkdir public/files/seminaires
   - mkdir public/colloques
